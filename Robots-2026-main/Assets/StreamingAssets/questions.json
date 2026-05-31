@@ -1,0 +1,90 @@
+{
+  "robots": [
+    {
+      "id": 0,
+      "robotName": "BlueRobot",
+      "role": "Leader",
+      "roleDescription": "Most confident robot",
+      "pointsForAgreeing": 100
+    },
+    {
+      "id": 1,
+      "robotName": "YellowRobot",
+      "role": "Analyst",
+      "roleDescription": "Careful robot",
+      "pointsForAgreeing": 80
+    },
+    {
+      "id": 2,
+      "robotName": "Triangle Robot",
+      "role": "Follower",
+      "roleDescription": "Usually influenced by others",
+      "pointsForAgreeing": 50
+    },
+    {
+      "id": 3,
+      "robotName": "Pink Robo",
+      "role": "Doubter",
+      "roleDescription": "Least confident robot",
+      "pointsForAgreeing": 30
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "correctAnswerIndex": 2,
+      "robotAnswers": [
+        {
+          "robotId": 0,
+          "optionIndex": 2,
+          "chatMessage": "I strongly believe the answer is Paris."
+        },
+        {
+          "robotId": 1,
+          "optionIndex": 1,
+          "chatMessage": "I think it may be Madrid."
+        },
+        {
+          "robotId": 2,
+          "optionIndex": 0,
+          "chatMessage": "Maybe Berlin."
+        },
+        {
+          "robotId": 3,
+          "optionIndex": 3,
+          "chatMessage": "I am leaning toward Rome."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "questionText": "2 + 5 = ?",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswerIndex": 1,
+      "robotAnswers": [
+        {
+          "robotId": 0,
+          "optionIndex": 1,
+          "chatMessage": "The answer is definitely 7."
+        },
+        {
+          "robotId": 1,
+          "optionIndex": 2,
+          "chatMessage": "I think it is 8."
+        },
+        {
+          "robotId": 2,
+          "optionIndex": 0,
+          "chatMessage": "Maybe 6."
+        },
+        {
+          "robotId": 3,
+          "optionIndex": 3,
+          "chatMessage": "I am guessing 9."
+        }
+      ]
+    }
+  ]
+}

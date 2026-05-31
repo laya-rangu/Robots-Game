@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df80a671675a74b3498eee05e9fcc345, type: 3}
+  m_Name: Q1
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questionText: When was Robot Corp founded?
+  options:
+  - optionText: 1998
+    points: 5
+  - optionText: 1985
+    points: 5
+  - optionText: 2005
+    points: 20
+  - optionText: 2012
+    points: 5
+  correctAnswerIndex: 2
+  piperOpinion: 2005! I remember the party!
+  samOpinion: 'Confirmed: March 3rd, 2005.'
+  heloOpinion: Public record. It's 2005.
+  gideOpinion: 2005. The year it all began.
